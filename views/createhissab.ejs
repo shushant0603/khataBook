@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <div id="logo"><h2>KhataBook</h2></div>
+        <ul>
+            <li><a href="/">Home</a></li>
+          <li><a href="/createhissab">createNew-Hissabji</a></li>
+          </ul>
+      </nav>
+
+      <div id="container">
+          <h2>Create new hissab</h2>
+          <form action="/createhissab" method="POST">
+            <!-- <label for="filename">File Name:</label> -->
+            <input type="text" id="filename" name="filename" placeholder="filename" required>
+            
+            <!-- <label for="filedata">File Data:</label> -->
+            <textarea id="filedata" name="filedata" placeholder="write..." required></textarea>
+            
+            <button type="submit">Create File</button>
+        </form>
+      </div>
+   
+</body>
+</html>
